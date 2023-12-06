@@ -1,24 +1,26 @@
-# Tarkhineh
+# Tarkhineh (ترخینه)
 
 Food Preparation Site
 FrontEnd
 
-React/js
+React/js |
 Tailwind
 
+# git clone repo
 ```sh
-#git clone repo
-
 git clone https://github.com/msalehch/Tarkhineh.git
+```
 
-#cd
-
+# cd
+```sh
 cd Tarkhineh
-
+```
 # install dependencies
-npm install / npm i
+```sh
+npm i
+```
 
 # run development server
+```sh
 npm run dev
-
 ```

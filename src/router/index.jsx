@@ -4,6 +4,7 @@ import {createBrowserRouter} from 'react-router-dom'
 import BaseLayout from '@/layout'
 import HomePage from '@/pages'
 import NotFound from '@/pages/404'
+import Button from '@/components/UI/Button'
 
 const routes = [
   {
@@ -19,6 +20,9 @@ const routes = [
   {
     path: '*',
     element: <NotFound />,
+  },{
+    path: 'test',
+    element: <Button />,
   },
 ]
 const router = createBrowserRouter(routes)

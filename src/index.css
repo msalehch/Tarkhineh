@@ -5,15 +5,16 @@
 @font-face {
   font-family: Estedad;
   src: url("./assets/font/Estedad-v5.0-Fontjo.com/estedad.woff2");
-  }
-  * {
+}
+* {
   font-family: Estedad;
-  }
-  body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
   font-family: Estedad;
-  padding-left: 32px;
-  padding-right: 32px;
-  }
-  #root{
-    font-family: inherit;
-  }
+}
+#root {
+  font-family: inherit;
+}

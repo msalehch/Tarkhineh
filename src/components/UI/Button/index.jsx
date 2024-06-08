@@ -5,6 +5,7 @@ const variants = {
     outline:
       "border border-blue-500 text-blue-500 hover:border-blue-600 hover:text-blue-600",
     NavBarBTN: "text-sm py-2 bg-green-200",
+    White: "border border-white text-white ",
   };
   const sizes = {
     sm: "flex py-2 text-sm px-2 text-center",

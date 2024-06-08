@@ -4,6 +4,7 @@ import HomeWifi from "@/assets/images/HomeWifi.svg";
 import Diagram from "@/assets/images/Diagram.svg";
 import User from "@/assets/images/User.svg";
 import MenuBoard from "@/assets/images/MenuBoard.svg";
+import ArrowLeft from "@/assets/images/ArrowLeft.svg"
 
 function About() {
   return (
@@ -11,17 +12,22 @@ function About() {
       <img src={AboutPic} alt="" className="w-full" />
       <div className="absolute flex justify-center items-center">
         <div className="p-16 basis-2/4">
-          <p className="font-bold text-white pb-9 text-xl">
+            <div>
+
+          <p className="font-bold text-white pb-9 text-3xl">
             رستوران‌های زنجیره‌ای ترخینه
           </p>
-          <p className="text-white">
+          <p className="text-white text-xl text-justify">
             مهمان‌نوازی یکی از مهم‌ترین مشخصه‌های ایرانیان است و باعث افتخار
             ماست که بیش از 20 سال است خدمت‌گزار مردم شریف ایران هستیم. ما در
             رستوران‌های زنجیره‌ای ترخینه همواره تلاش کردیم که در محیطی اصیل بر
             پایه معماری و طراحی مدرن در کنار طبیعتی دلنواز، غذایی سالم و درخور
             شان شما عزیزان ارائه دهیم.
           </p>
-          <Button>اطلاعات بیشتر</Button>
+            </div>
+            <div className="flex justify-end pt-8 items-end">
+          <Button variant="White">اطلاعات بیشتر <img src={ArrowLeft} alt="" /></Button>
+            </div>
         </div>
         <div className=" p-16 basis-2/4 grid grid-cols-2 grid-rows-2 gap-y-16">
           <div>

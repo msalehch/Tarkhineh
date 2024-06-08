@@ -8,7 +8,7 @@ import ArrowLeft from "@/assets/images/ArrowLeft.svg"
 
 function About() {
   return (
-    <div className="relative flex w-full flex-wrap ">
+    <div className="relative flex w-full flex-wrap items-center justify-center ">
       <img src={AboutPic} alt="" className="w-full" />
       <div className="absolute flex justify-center items-center">
         <div className="p-16 basis-2/4">

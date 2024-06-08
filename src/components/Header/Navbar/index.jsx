@@ -57,7 +57,7 @@ function Navbar() {
 
       <div className="flex gap-2">
         <Link to={"#"}>
-          <Button variant="NavBarBTN" size="sm" title="Search" onClick={handleButtonClick}>
+          <Button variant="NavBarBTN" size="sm" title="Search" >
             {showInput ? (
               <input
               type="text"
@@ -70,6 +70,7 @@ function Navbar() {
               ""
             )}
             <img
+            onClick={handleButtonClick}
               src={SearchIcon}
               alt="SearchIcon"
             />

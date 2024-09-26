@@ -6,7 +6,9 @@ import Shoabe4 from "@/assets/images/Shoabe4.svg";
 function Places() {
   return (
     <>
-      <div className="text-2xl pt-7 font-bold">ترخینه گردی</div>
+      <div className="text-2xl pt-7 font-bold flex items-center flex-col ">
+        ترخینه گردی
+      </div>
 
       <div className="flex gap-8 flex-wrap">
         <div className="flex flex-col items-center w-72 h-82 relative border border-gray-600 rounded-md mt-6 hover:shadow-lg hover:shadow-black hover:animate-pulse">

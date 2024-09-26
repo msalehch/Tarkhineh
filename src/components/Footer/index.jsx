@@ -1,19 +1,23 @@
 import BackFootPic from "@/assets/images/BackFootPic.svg";
 
 function Footer() {
+  return (
+    <>
+      <div className="flex mt-10 ">
+        <img src={BackFootPic} alt="BackFootPic" className="w-full" />
 
-    return(
-        <>
-        <div className="flex mt-10 relative">
-            <img src={BackFootPic} alt="BackFootPic" className="w-full"/>
-             
-             <div className="absolute flex justify-center items-center  ">
-            <div className="w-full h-full flex justify-center items-center basis- text-white">dshfhdffgdh</div>
-            <div className="w-full h-full flex justify-center items-center basis-1/4 text-white">dshfhdffgdh</div>
-            <div className="w-full h-full flex justify-center items-center basis-1/2 text-white">dshfhdffgdh</div>
-             </div>
-        </div>
-        </>
-    )
+        <span className="absolute flex flex-row">
+          <p className="flex basis-1/4 text-white">dshfhdffgdh</p>
+          <p className="flex basis-1/4 text-white">dshfhdffgdh</p>
+          <p className="flex basis-1/2 text-white">dshfhdffgdh</p>
+        </span>
+      </div>
+      <span className=" flex flex-row">
+        <p className="flex basis-1/4">dshfhdffgdh</p>
+        <p className="flex basis-1/4">dshfhdffgdh</p>
+        <p className="flex basis-1/2">dshfhdffgdh</p>
+      </span>
+    </>
+  );
 }
 export default Footer;

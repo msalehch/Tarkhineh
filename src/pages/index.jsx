@@ -3,7 +3,7 @@ import HomePageComponents from "@/components/HomePageComponents";
 
 function HomePage() {
   return (
-    <div className="flex items-center flex-col w-full">
+    <div className="w-full">
       <HomePageScreen />
       <HomePageComponents/>
     </div>

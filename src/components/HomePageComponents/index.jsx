@@ -9,7 +9,7 @@ import Places from "./Places";
 function HomePageComponents() {
   return (
     <>
-      <div className="text-2xl pt-7 font-bold">منوی رستوران</div>
+      <div className="text-2xl pt-7 font-bold flex items-center flex-col ">منوی رستوران</div>
       <div className="flex gap-8 flex-wrap pt-10">
         <div className="flex flex-col justify-center items-center w-72 h-96 relative">
           <div className="w-72 h-40 rounded-xl bg-green-700  flex justify-center ">
